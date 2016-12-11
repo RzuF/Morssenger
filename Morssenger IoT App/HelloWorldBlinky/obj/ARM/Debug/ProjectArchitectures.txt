@@ -1,0 +1,1 @@
+C:\Users\Wojciech\Source\Repos\NewRepo\Software\CSharp\Samples\HelloWorldBlinky\HelloWorldBlinky\HelloWorldBlinky.csproj;arm

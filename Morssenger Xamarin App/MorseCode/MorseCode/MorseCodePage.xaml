@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MorseCode.MorseCodePage">
+  <StackLayout>
+    <Entry x:Name="userText"
+           HorizontalTextAlignment="Center"/>
+    <Button x:Name="sendClick"
+            Text="Translate"
+            Clicked="onSendButtonClicked" />
+    <Label x:Name="resultLabel"
+           FontAttributes="Bold"
+           HorizontalTextAlignment="Center"/>
+    <Label FontAttributes="Bold"
+           Text="Message from other user:"
+           HorizontalTextAlignment="Center"/>
+    <Label x:Name="messageLabel"
+           FontAttributes="Italic"
+           Text=""
+           HorizontalTextAlignment="Center"/>
+  </StackLayout>
+</ContentPage>
